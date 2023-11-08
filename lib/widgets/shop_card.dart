@@ -61,9 +61,9 @@ class MyHomePage extends StatelessWidget {
                   'PBP Shop', // Text yang menandakan toko
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.bold,
-                    color: Color.fromRGBO(102, 37, 73, 1.0)
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromRGBO(102, 37, 73, 1.0)
                   ),
                 ),
               ),
