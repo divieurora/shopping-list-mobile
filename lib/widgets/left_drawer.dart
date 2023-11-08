@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/screens/menu.dart';
-import 'package:shopping_list/shoplist_from.dart';
+import 'package:shopping_list/screens/shoplist_form.dart';
 
 class LeftDrawer extends StatelessWidget {
   const LeftDrawer({super.key});
@@ -12,7 +12,7 @@ class LeftDrawer extends StatelessWidget {
         children: [
           const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.indigo,
+                color: Color.fromRGBO(174, 68, 90, 1.0),
               ),
               child: Column(
                 children: [
@@ -22,7 +22,7 @@ class LeftDrawer extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Color.fromRGBO(243, 159, 90, 1.0),
                     ),
                   ),
                   Padding(padding: EdgeInsets.all(10)),
@@ -52,10 +52,6 @@ class LeftDrawer extends StatelessWidget {
             onTap: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => const ShopFormPage()));
-              /*
-    TODO: Buatlah routing ke ShopFormPage di sini,
-    setelah halaman ShopFormPage sudah dibuat.
-    */
             },
           ),
         ],
