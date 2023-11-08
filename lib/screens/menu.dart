@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopping_list/widgets/left_drawer.dart';
-import 'package:shopping_list/widgets/shop_card.dart';
+import 'package:shopping_list/screens/shop_card.dart';
 import 'package:shopping_list/shoplist_from.dart';
 
 class ShopItem {
@@ -61,9 +61,9 @@ class MyHomePage extends StatelessWidget {
                   'PBP Shop', // Text yang menandakan toko
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
-                      color: Color.fromRGBO(102, 37, 73, 1.0)
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Color.fromRGBO(102, 37, 73, 1.0)
                   ),
                 ),
               ),
