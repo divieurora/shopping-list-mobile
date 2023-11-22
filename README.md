@@ -1,6 +1,9 @@
 # shopping_list
 
 A new Flutter project.
+[![Build status](https://build.appcenter.ms/v0.1/apps/30daa36b-558f-4bb2-9501-bad561474834/branches/master/badge)](https://appcenter.ms)
+
+Shopping List App: https://install.appcenter.ms/orgs/shopping-list-lidwina/apps/shopping-list/distribution_groups/public
 
 ## Getting Started
 
